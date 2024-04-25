@@ -90,7 +90,7 @@ nav ul li#logo a:hover {
 
 .writing h1, .writing h2 {
     background: none;
-    margin: 2rem;
+    margin: 2rem 2rem 2rem 0.75rem;
     color: #D9D5D2;
 }
 

@@ -1,0 +1,393 @@
+/* Universal Styles */
+* {
+    background-color: white;
+    margin: 0;
+}
+
+img {
+    width: 10rem;
+    height: auto;
+}
+
+a {
+    background: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Nav Bar */
+
+nav {
+    position: sticky;
+    top: 0px;
+    margin: 0;
+    padding: 1rem;
+    background-color: #D9A282;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    z-index: 1000;
+}
+
+nav ul {
+    background: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+nav ul li {
+    color: #225C73;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul li#logo {
+    font-size: 2rem;
+    padding: 0;
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-optical-sizing: auto;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul li#logo a:hover {
+    text-decoration: none;
+}
+
+/* Poster */
+
+.poster {
+    margin: 0;
+    background-image: url(resources/images/photo-1647102164120-2a266070cc75.jpg);
+    background-position: center top;
+    height: 100%;
+    background-size: 100%;
+    
+}
+
+.poster .writing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    text-align: center;
+    background: none;
+    margin: 0;
+}
+
+.writing h1, .writing h2 {
+    background: none;
+    margin: 2rem;
+    color: #D9D5D2;
+}
+
+.writing h1 {
+    font-size: 3rem;
+}
+
+.writing h2 {
+    font-size: 2rem;
+}
+
+/* Products */
+
+#products {
+    background-color: #F2AFA0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+}
+
+#products:target {
+    scroll-margin-top: 50px;
+}
+
+#products .title {
+    color: #225C73;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 5rem;
+    background: none;
+}
+
+#products h4 {
+    background: none;
+    color: #F2AFA0;
+}
+
+.men h3, .women h3, 
+.kids h3, .pets h3 {
+    color: #F2AFA0;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem;
+    background: none;
+}
+
+.examples {
+    background: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+
+.examples h3 {
+    color: #F2AFA0;
+}
+
+.examples h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.men, .women, 
+.kids, .pets {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    border: 1px solid black;
+    background-color: #4189A6;
+    border-radius: 20px;
+}
+
+.img{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: none;
+    margin-bottom: 1rem;
+}
+
+.women .img img:first-child {
+    height: 200px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.pets .furry {
+    display: flex;
+    flex-direction: column;
+    background: none;
+}
+
+.pets .furry h4 {
+    background: none;
+    color: #F2AFA0;
+}
+
+/* Services */
+
+#services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f2afa0;
+}
+
+#services:target {
+    scroll-margin-top: 50px;
+}
+
+#services h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem 1rem 1rem 1rem;
+    background: none;
+    color: #225C73;
+}
+
+#services .table {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-image: url(resources/images/skyler-gerald-xFwtmffZlrg-unsplash.jpg);
+    background-size: 100%;
+}
+
+.table table {
+    border: 2px solid #021526;
+    border-collapse: collapse;
+    width: 30rem;
+    background: none;
+}
+
+table td {
+    border: 1px dotted #021526;
+    border-collapse: collapse;
+    background-color: #D9A282;
+    text-align: center;
+    padding: 0;
+}
+
+#services table .deco-size li, ul.deco-size {
+    text-align: center;
+    background-color: #D9A282;
+    list-style: none;
+}
+
+.table th {
+    border: 1px dotted black;
+    border-collapse: collapse;
+    background-color: #D9A282;
+}
+
+td .deco-size {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-content: space-around;
+}
+
+#about {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #F2AFA0; 
+
+}
+
+#about:target {
+    scroll-margin-top: 50px;
+}
+
+#about .title {
+    font-size: 1.5rem;
+    color: #225C73;
+    margin: 0 1rem 1rem 1rem;
+    background-color: #F2AFA0;
+    padding-top: 2rem;
+}
+
+#about p {
+    padding: 24px 3rem;
+    text-align: justify;
+    background-color: #F2AFA0;
+}
+
+#order {
+    margin: 0;
+    padding: 1rem 2rem;
+    background-color: #F2AFA0;
+}
+
+#order:target {
+    scroll-margin-top: 50px;
+}
+
+#order .title {
+    font-size: 1.5rem;
+    background: none;
+    text-align: center;
+    color: #225C73;
+}
+
+#order .order {
+    display: flex;
+    flex-direction: column;
+    background: none;
+    padding-bottom: 2rem;
+    align-items: center;
+}
+
+#order label{
+    background: none;
+    margin: 1.5rem;
+    font-weight: 700;
+}
+
+#order .order textarea {
+    height: 5rem;
+    width: 20rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2AFA0;
+    padding: 3rem 2rem 1rem 2rem;
+    justify-content: center;
+}
+
+.contact {
+    background: none;
+    margin: 0;
+    padding: 2rem 3rem;
+}
+
+.contact h3 {
+    color: #225C73;
+    background: none;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.contact .infos {
+    background: none;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    padding-bottom: 2rem;
+}
+
+.infos li {
+    background: none;
+}
+
+.images {
+    margin: 0;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+}
+
+.images img {
+    height: 15rem;
+    width: auto;
+}
+
+.copyrights {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1.75rem 0 1.75rem;
+    background: none;
+}
+
+.copyrights p, 
+.copyrights i {
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+

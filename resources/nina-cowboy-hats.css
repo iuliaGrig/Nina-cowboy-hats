@@ -70,7 +70,7 @@ nav ul li#logo a:hover {
 
 .poster {
     margin: 0;
-    background-image: url(/Users/iulia/git_practice/nina-cowboy-hats/resources/images/photo-1647102164120-2a266070cc75.jpg);
+    background-image: url(resources/images/photo-1647102164120-2a266070cc75.jpg);
     background-position: center top;
     height: 100%;
     background-size: 100%;
@@ -223,7 +223,7 @@ nav ul li#logo a:hover {
     display: flex;
     justify-content: center;
     height: 500px;
-    background-image: url(/Users/iulia/git_practice/nina-cowboy-hats/resources/images/skyler-gerald-xFwtmffZlrg-unsplash.jpg);
+    background-image: url(resources/images/skyler-gerald-xFwtmffZlrg-unsplash.jpg);
     background-size: 100%;
 }
 

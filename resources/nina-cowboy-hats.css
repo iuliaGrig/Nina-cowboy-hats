@@ -199,6 +199,23 @@ nav ul li#logo a:hover {
     color: #F2AFA0;
 }
 
+@media only screen and (max-width: 1046px) {
+    #products .examples.desktop {
+        display: none;
+    }
+
+    #products .examples.mobile  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #products .examples.mobile img {
+        display: none;
+    }
+}
+
 /* Services */
 
 #services {

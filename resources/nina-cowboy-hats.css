@@ -60,10 +60,13 @@ nav ul li#logo {
 
 nav a:hover {
     text-decoration: underline;
+    font-size: 1.5rem;
+    transition: font-size linear 200ms 0.1s;
 }
 
 nav ul li#logo a:hover {
     text-decoration: none;
+    font-size: 2rem;
 }
 
 /* Poster */
@@ -386,6 +389,11 @@ footer {
     background: none;
 }
 
+.infos li#address {
+    text-decoration: line-through;
+    text-decoration-thickness: 4px; 
+}
+
 .images {
     margin: 0;
     background: none;
@@ -408,8 +416,8 @@ footer {
     background: none;
 }
 
-.copyrights p, .copyrights i, 
-.thanks p{
+.copyrights p, 
+.copyrights i{
     background: none;
     margin: 0;
     padding: 0;

@@ -61,7 +61,7 @@ nav ul li#logo {
 nav a:hover {
     text-decoration: underline;
     font-size: 1.5rem;
-    transition: font-size linear 200ms 0.1s;
+    transition: font-size ease-in-out 200ms 0.1s;
 }
 
 nav ul li#logo a:hover {

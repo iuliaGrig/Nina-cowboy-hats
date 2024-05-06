@@ -320,6 +320,17 @@ td .deco-size {
     margin: 0;
     padding: 1rem 2rem;
     background-color: #F2AFA0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#order button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
 }
 
 #order:target {
@@ -343,7 +354,7 @@ td .deco-size {
 
 #order label{
     background: none;
-    margin: 1.5rem;
+    margin: 1rem;
     font-weight: 700;
 }
 
@@ -365,7 +376,7 @@ footer {
 .contact {
     background: none;
     margin: 0;
-    padding: 2rem 3rem;
+    padding: 1rem 3rem;
 }
 
 .contact h3 {

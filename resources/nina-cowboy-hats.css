@@ -326,7 +326,7 @@ td .deco-size {
     align-items: center;
 }
 
-#order button {
+button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -356,11 +356,14 @@ td .deco-size {
     background: none;
     margin: 1rem;
     font-weight: 700;
+    color: #225C73;
 }
 
 #order .order textarea {
     height: 5rem;
     width: 20rem;
+    background-color: #eec8cf;
+    color: #000000;
 }
 
 /* Footer */

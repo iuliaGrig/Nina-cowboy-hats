@@ -1,3 +1,3 @@
-#Nina's Cowboy Hats
+Nina's Cowboy Hats
 
-#It's supposed to be a website that sells cowboy hats. It is not responsive as of yet but will update.
+Website that "sells" cowboy hats. Not 100% responsive as of yet, will update.

@@ -61,12 +61,14 @@ nav ul li#logo {
 nav a:hover {
     text-decoration: underline;
     font-size: 1.5rem;
-    transition: font-size ease-in-out 200ms 0.1s;
+    transform: rotateZ(360deg);
+    transition: font-size ease 200ms, transform  ease-in-out 900ms;
 }
 
 nav ul li#logo a:hover {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: inherit;
+    transform: none;
 }
 
 /* Poster */
@@ -330,8 +332,16 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
+    width: 4rem;
+    color: #225C73;
 }
+
+button:hover {
+    cursor: pointer;
+    transform: rotateY(1turn);
+    transition: transform ease 0.8s;
+}
+
 
 #order:target {
     scroll-margin-top: 50px;

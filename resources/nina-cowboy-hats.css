@@ -61,8 +61,7 @@ nav ul li#logo {
 nav a:hover {
     text-decoration: underline;
     font-size: 1.5rem;
-    transform: rotateZ(360deg);
-    transition: font-size ease 200ms, transform  ease-in-out 900ms;
+    transition: font-size ease 200ms;
 }
 
 nav ul li#logo a:hover {
